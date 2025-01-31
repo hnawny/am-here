@@ -95,7 +95,7 @@ export default async function handler(req, res) {
 
     // เรียกใช้งาน Gemini API
     const geminiResponse = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDguoRw0LAthYIz3AahF4Zw0ZEzwK3Ltf4`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=xxxxxxxxxxxx`,
       {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
