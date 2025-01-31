@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'IBM Plex Sans Thai', sans-serif !important;
+}
+
+/* Scrollbar ทั้งแนวตั้งและแนวนอน */
+::-webkit-scrollbar {
+  width: 5px;   /* ความกว้างของ scrollbar แนวตั้ง */
+  height: 5px;  /* ความสูงของ scrollbar แนวนอน */
+}
+
+/* พื้นหลังของ track (พื้นที่ว่าง) */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* ตัวเลื่อน scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: #322659;
+  border-radius: 5px;
+}
+
+
