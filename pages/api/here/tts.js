@@ -81,7 +81,7 @@ export default async function handler(req, res) {
       }
   
       const geminiResponse = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDguoRw0LAthYIz3AahF4Zw0ZEzwK3Ltf4`,
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=xxxxxxx`,
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -112,7 +112,7 @@ export default async function handler(req, res) {
       const botnoiResponse = await fetch('https://api-voice.botnoi.ai/openapi/v1/generate_audio', {
         method: 'POST',
         headers: {
-          'Botnoi-Token': 'OWt5TWQ3cnNVRldaYkF4MGJ4OWh4RXpKanB0MjU2MTg5NA==',
+          'Botnoi-Token': 'xxxxxxx==',
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
